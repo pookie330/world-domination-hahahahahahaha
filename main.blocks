@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="XB{z$,dk2boKm3k[xtCI">mySprite</variable><variable type="KIND_SpriteKind" id="$I9TyiL|{5-~b5~YF}4.">Player</variable><variable type="KIND_SpriteKind" id="$aBvz4Q@{F5$QH^40hiQ">Projectile</variable><variable type="KIND_SpriteKind" id="ZVpHK5O26.qh(?1pdNEU">Food</variable><variable type="KIND_SpriteKind" id="TX.`{58}nif*;`^w-_hC">Enemy</variable></variables><block type="pxt-on-start" id="U~?z^eFVtv_z,Z-sCT6p" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="$n.,7dEpm]Jl]NGO8wQ~"><field name="VAR" id="XB{z$,dk2boKm3k[xtCI">mySprite</field><value name="VALUE"><shadow type="math_number" id="#J{j@Qn8yHGU0+S?v*z!"><field name="NUM">0</field></shadow><block type="spritescreate" id="wxcGfcoV=zrCNGnh/wva"><value name="img"><shadow type="screen_image_picker" id="B]=.WqS$w_]u@)fLg0^k"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="hXG7(QQ$W*.(/GJ.0A[x"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="keyonevent" id="I.c7OQ+tWNICVa?46l*r" x="291" y="146"><field name="button">controller.up</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="Sprite_blockCombine_change" id="4hY^i!n9|-N;3jCwlQ:="><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get" id="faVgFuu]WDw^;kY;[EYI"><field name="VAR" id="XB{z$,dk2boKm3k[xtCI">mySprite</field></block></value><value name="value"><shadow type="math_number" id="lj`15lK]m^0hd`*NIU}L"><field name="NUM">1</field></shadow></value></block></statement></block></xml>
